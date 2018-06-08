@@ -6,7 +6,7 @@
 	<meta property="og:title" content="Secure Chat in Bash">
 	<meta property="og:description" content="Secure Chat in Bash">
 	<meta property="og:image" content="./screenshot/x.jpg">
-	<meta property="og:url" content="http://Elham-s.github.io">
+	<meta property="og:url" content="https://behzadkhosravifar.github.io/BashSecureChat/">
 
 	<title>Secure Chat in Bash</title>
 
@@ -122,7 +122,7 @@
 		(function(){var a;document.addEventListener||(document.attachEvent?document.addEventListener=function(a,b,c){return document.attachEvent("on"+a,b,c)}:document.addEventListener=function(){return{}}),document.removeEventListener||(document.detachEvent?document.removeEventListener=function(a,b){return document.detachEvent("on"+a,b)}:document.removeEventListener=function(){return{}}),a={},a=function(){function a(a){var b,c;a&&(this.awayTimeout=parseInt(a.awayTimeout,10),this.onAway=a.onAway,this.onAwayBack=a.onAwayBack,this.onVisible=a.onVisible,this.onHidden=a.onHidden),c=this,b=function(){return c.onActive()},window.addEventListener("click",b),window.addEventListener("mousemove",b),window.addEventListener("mouseenter",b),window.addEventListener("keydown",b),window.addEventListener("scroll",b),window.addEventListener("mousewheel",b),window.addEventListener("touchmove",b),window.addEventListener("touchstart",b)}return a.isAway=!1,a.awayTimeout=3e3,a.awayTimestamp=0,a.awayTimer=null,a.onAway=null,a.onAwayBack=null,a.onVisible=null,a.onHidden=null,a.prototype.onActive=function(){return this.awayTimestamp=(new Date).getTime()+this.awayTimeout,this.isAway&&(this.onAwayBack&&this.onAwayBack(),this.start()),this.isAway=!1,!0},a.prototype.start=function(){var a;return this.listener||(this.listener=function(){return a.handleVisibilityChange()},document.addEventListener("visibilitychange",this.listener,!1),document.addEventListener("webkitvisibilitychange",this.listener,!1),document.addEventListener("msvisibilitychange",this.listener,!1)),this.awayTimestamp=(new Date).getTime()+this.awayTimeout,null!==this.awayTimer&&clearTimeout(this.awayTimer),a=this,this.awayTimer=setTimeout(function(){return a.checkAway()},this.awayTimeout+100),this},a.prototype.stop=function(){return null!==this.awayTimer&&clearTimeout(this.awayTimer),null!==this.listener&&(document.removeEventListener("visibilitychange",this.listener),document.removeEventListener("webkitvisibilitychange",this.listener),document.removeEventListener("msvisibilitychange",this.listener),this.listener=null),this},a.prototype.setAwayTimeout=function(a){return this.awayTimeout=parseInt(a,10),this},a.prototype.checkAway=function(){var a,b;return b=(new Date).getTime(),b<this.awayTimestamp?(this.isAway=!1,a=this,void(this.awayTimer=setTimeout(function(){return a.checkAway()},this.awayTimestamp-b+100))):(null!==this.awayTimer&&clearTimeout(this.awayTimer),this.isAway=!0,this.onAway?this.onAway():void 0)},a.prototype.handleVisibilityChange=function(){if(document.hidden||document.msHidden||document.webkitHidden){if(this.onHidden)return this.onHidden()}else if(this.onVisible)return this.onVisible()},a}(),"function"==typeof define&&define.amd?define([],a):"object"==typeof exports?module.exports=a:window.Idle=a}).call(this);
 	</script>
 	<script type="text/javascript">
-		USERNAME = 'Elham';
+		USERNAME = 'Guest';
 		INPUT_HEAD = USERNAME + '-pc:~&nbsp;guest$&nbsp;';
 		CURSOR = '<span class="cursor"></span>';
 		COMMAND = '<div class="command line">'+ INPUT_HEAD +'<span class="cursor"></span></div>';
