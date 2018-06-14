@@ -1,2 +1,2 @@
-# BashSecureChat
-A web project for Secure chat in bash GUI 
+# Bash Chat DEMO
+A web project for chat in bash GUI 
